@@ -81,6 +81,7 @@ Python (pandas, matplotlib)
 
 ```
 ├── README.md
+├── requirements.txt   # необходимые библиотеки
 ├── analysis.ipynb        # основной ноутбук с расчётами и графиками
 ├── data/     # все необходимые данные
 └── grafics/           # сохранённые графики
