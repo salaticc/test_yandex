@@ -1,0 +1,36 @@
+{
+  "year": 2025,
+  "data_kind": "synthetic educational assignment",
+  "client_unit": "company",
+  "currency": "RUB",
+  "amount_definition": "GMV of confirmed bookings; not platform revenue or profit",
+  "source_rows": 1964,
+  "year_rows": 1964,
+  "confirmed_bookings": 1691,
+  "confirmed_gmv_rub": 84702377.92,
+  "companies": 50,
+  "active_companies": 50,
+  "h1_active_companies": 50,
+  "h2_inactive_companies": 16,
+  "h2_inactive_pct_of_h1": 32.0,
+  "inactive_companies_historical_h1_gmv_rub": 17510111.8,
+  "h1_total_gmv_rub": 49883317.989999995,
+  "h2_total_gmv_rub": 34819059.93,
+  "new_companies_2025": 0,
+  "top3_share_of_inactive_h1_gmv_pct": 43.308007091079794,
+  "limitations": [
+    "One year cannot establish recurring seasonality.",
+    "H2 inactivity is an operational flag, not confirmed permanent churn.",
+    "Historical GMV is not lost revenue; no counterfactual or margin is available.",
+    "Company-level data cannot estimate employee activity or employee LTV."
+  ],
+  "sql_month_product_checks": 48,
+  "sql_checks_passed": 48,
+  "source_sha256": {
+    "bookings.csv": "26d600b1c3f03231aa41d46ba23c90c913a134a5bd9964ae18fdb35f69c4cdd6",
+    "clients.csv": "8994d050b4655c3c91c91b3b14ec3bc23174116ab899b12ac3f9b034922bd47f"
+  },
+  "verification_environment": {
+    "python": "3.12.14"
+  }
+}
